@@ -1,0 +1,9 @@
+{
+  "type": "module",
+  "dependencies": {
+    "bootstrap": "5.3.3",
+    "del": "^7.1.0",
+    "gulp": "^5.0.0",
+    "jquery": "^3.7.1"
+  }
+}

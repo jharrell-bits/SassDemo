@@ -1,0 +1,58 @@
+﻿@import "./Quartz/_variables.scss";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./Quartz/_bootswatch.scss";
+
+html {
+    font-size: 18px;
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.btn {
+    padding: .5rem .9rem
+}
+
+.dropdown-menu.show[aria-labelledby=themes] {
+    display: flex;
+    flex-wrap: wrap;
+    width: 420px
+}
+
+.dropdown-menu.show[aria-labelledby=themes] .dropdown-item {
+    width: 33.333333%
+}
+
+.dropdown-menu.show[aria-labelledby=themes] .dropdown-item:first-child {
+    width: 100%
+}
+
+.bs-component {
+    position: relative
+}
+
+.bs-component + .bs-component {
+    margin-top: 1rem
+}
+
+@media(max-width: 767px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media(min-width: 992px) {
+    .navbar-transparent {
+        background: none !important
+    }
+}
+
+.bs-component > .btn,
+.bs-component > .btn-toolbar > .btn-group,
+.bs-component > .btn-group,
+.section-preview .card .btn-group {
+    margin-bottom: .25rem
+}
